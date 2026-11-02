@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "knifemod",
+  "version": "${version}",
+  "name": "Knife Cases",
+  "description": "CS-style knife cosmetics: case opening, rarities, spin and inspect in your empty hand.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.knifemod.KnifeMod"
+    ],
+    "client": [
+      "com.knifemod.client.KnifeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
